@@ -1,0 +1,16 @@
+{
+  "name": "07-worker-threads",
+  "version": "1.0.0",
+  "description": "Worker Threads en Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start:main": "npx ts-node main.ts",
+    "start:beginner": "npx ts-node src/beginner/cpu-worker.ts",
+    "start:intermediate": "npx ts-node src/intermediate/worker-pool.ts",
+    "start:advanced": "npx ts-node src/advanced/shared-memory.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
