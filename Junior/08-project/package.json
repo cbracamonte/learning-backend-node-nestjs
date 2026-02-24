@@ -1,0 +1,12 @@
+{
+  "name": "08-project",
+  "version": "1.0.0",
+  "description": "Proyecto Integrador: Sistema de Conciliación Bancaria Automática",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
