@@ -1,0 +1,16 @@
+{
+  "name": "04-libuv-io",
+  "version": "1.0.0",
+  "description": "Node no hace I/O directamente",
+  "main": "index.js",
+  "scripts": {
+    "start:main": "npx ts-node main.ts",
+    "start:beginner": "npx ts-node src/beginner/io-basics.ts",
+    "start:intermediate": "npx ts-node src/intermediate/io-threads.ts",
+    "start:advanced": "npx ts-node src/advanced/io-uv-loop.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

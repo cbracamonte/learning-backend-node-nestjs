@@ -5,5 +5,9 @@
   "workspaces": [
     "csv-processor",
     "junior/*"
-  ]
+  ],
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "crypto": "^1.0.1"
+  }
 }
