@@ -1,0 +1,16 @@
+{
+  "name": "02-microtasks-vs-macrotasks",
+  "version": "1.0.0",
+  "description": "Diferencia entre MicroTasks y MacroTasks en Node.js, prioridad de ejecución, starvation y comportamiento del Event Loop.",
+  "main": "main.ts",
+  "scripts": {
+    "start:main": "npx ts-node main.ts",
+    "start:beginner": "npx ts-node src/beginner/priority-demo.ts",
+    "start:intermediate": "npx ts-node src/intermediate/starvation.ts",
+    "start:advanced": "npx ts-node src/advanced/mixed-async.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
