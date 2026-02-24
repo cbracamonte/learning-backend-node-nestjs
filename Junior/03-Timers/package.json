@@ -1,0 +1,16 @@
+{
+  "name": "03-timers",
+  "version": "1.0.0",
+  "description": "Timers en Node.js: setTimeout, setInterval, setImmediate, cómo funcionan dentro del Event Loop.",
+  "main": "index.js",
+  "scripts": {
+    "start:main": "npx ts-node main.ts",
+    "start:beginner": "npx ts-node src/beginner/timers-demo.ts",
+    "start:intermediate": "npx ts-node src/intermediate/intervals.ts",
+    "start:advanced": "npx ts-node src/advanced/recursive-timeouts.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
