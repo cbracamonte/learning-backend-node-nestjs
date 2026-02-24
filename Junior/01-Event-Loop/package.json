@@ -1,0 +1,19 @@
+{
+  "name": "01-event-loop",
+  "version": "1.0.0",
+  "description": "Mecanismo interno de Node.js que gestiona la ejecución de código **asíncrono**, permitiendo operaciones **no bloqueantes (Non-Blocking)** en un único hilo de ejecución (**Single-Thread**).",
+  "main": "main.ts",
+  "scripts": {
+    "start:main": "node main.ts",
+    "start:calculate": "node calculation.ts",
+    "start:simulation": "node simulation.ts",
+    "start:calculate-worker": "node calculation-worker.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.3.0"
+  }
+}
