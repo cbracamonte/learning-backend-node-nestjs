@@ -1,12 +1,24 @@
 import { createReconciliationModule } from "../modules/reconciliation/reconciliation.module";
-import { connectMongo, logger } from "../shared/infraestructure";
+import {
+  connectMongo,
+  getMongoClient,
+  logger,
+} from "../shared/infraestructure";
 
 export async function bootstrap() {
-  await connectMongo();
+  try {
+    await connectMongo();
 
-  const reconciliationModule = createReconciliationModule();
+    const reconciliationModule = createReconciliationModule();
 
-  logger.info("Sistema iniciado");
+    logger.info("Sistema iniciado");
 
-  reconciliationModule.start();
+    reconciliationModule.start();
+  } catch (error) {
+    logger.error("Error durante la inicialización", error);
+  } finally {
+    await getMongoClient().close();
+    logger.info("Sistema detenido");
+    process.exit(0);
+  }
 }

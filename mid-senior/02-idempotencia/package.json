@@ -1,0 +1,13 @@
+{
+  "name": "02-idempotencia",
+  "version": "1.0.0",
+  "description": "IDEMPOTENCIA - Sistema de Facturación Electrónica Masiva",
+  "main": "index.js",
+  "scripts": {
+    "start:main": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
