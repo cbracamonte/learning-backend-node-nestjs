@@ -1,0 +1,19 @@
+{
+  "name": "01-retry-strategy",
+  "version": "1.0.0",
+  "description": "RETRY STRATEGY - Sistema de Facturación Electrónica Masiva",
+  "main": "index.ts",
+  "scripts": {
+    "start:main": "ts-node index.ts"
+  },
+  "keywords": [
+    "retry",
+    "backoff",
+    "exponential",
+    "jitter",
+    "invoice",
+    "api"
+  ],
+  "author": "Hernan Bracamonte",
+  "license": "ISC"
+}
