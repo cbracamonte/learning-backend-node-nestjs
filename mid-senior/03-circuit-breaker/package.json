@@ -1,7 +1,7 @@
 {
-  "name": "02-idempotencia",
+  "name": "03-circuit-breaker",
   "version": "1.0.0",
-  "description": "IDEMPOTENCIA - Sistema de Facturación Electrónica Masiva",
+  "description": "CIRCUIT BREAKER - Sistema de Notificaciones Push",
   "main": "main.ts",
   "scripts": {
     "start:main": "ts-node main.ts"

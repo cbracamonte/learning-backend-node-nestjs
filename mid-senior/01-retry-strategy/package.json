@@ -2,9 +2,9 @@
   "name": "01-retry-strategy",
   "version": "1.0.0",
   "description": "RETRY STRATEGY - Sistema de Facturación Electrónica Masiva",
-  "main": "index.ts",
+  "main": "main.ts",
   "scripts": {
-    "start:main": "ts-node index.ts"
+    "start:main": "ts-node main.ts"
   },
   "keywords": [
     "retry",

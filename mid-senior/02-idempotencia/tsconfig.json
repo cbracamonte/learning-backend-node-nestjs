@@ -14,7 +14,7 @@
     "sourceMap": true
   },
   "include": [
-    "index.ts",
+    "main.ts",
     "src/**/*.ts"
   ],
   "exclude": [
